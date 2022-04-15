@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color:#21273b;
+
+  height: 100vh;
+  width: 98vw;
+}
+
+.header-img{
+  padding: 60px 15px;
+  position: fixed;
+ width: 15%;
+
+  top: 0;
+  transition: 0.25s all ease-in-out;
+ 
+}
+.home-img{
+  width: 38vw;
+  height: 68vh;
 }
